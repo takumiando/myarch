@@ -1,0 +1,73 @@
+{
+    "additional-repositories": [],
+    "archinstall-language": "English",
+    "audio_config": {
+        "audio": "pipewire"
+    },
+    "bootloader": "Systemd-boot",
+    "config_version": "2.8.1",
+    "debug": false,
+    "hostname": "archlinux",
+    "kernels": [
+        "linux"
+    ],
+    "locale_config": {
+        "kb_layout": "us",
+        "sys_enc": "UTF-8",
+        "sys_lang": "en_US"
+    },
+    "network_config": {
+        "type": "nm"
+    },
+    "no_pkg_lookups": false,
+    "ntp": true,
+    "offline": false,
+    "packages": [
+        "gimp",
+        "gst-libav",
+        "shellcheck",
+        "vivaldi",
+        "noto-fonts-extra",
+        "fwupd",
+        "the_silver_searcher",
+        "fcitx5-mozc",
+        "noto-fonts-cjk",
+        "git",
+        "noto-fonts",
+        "torbrowser-launcher",
+        "base-devel",
+        "discord",
+        "mpv",
+        "zsh",
+        "vim",
+        "gst-plugins-ugly",
+        "tmux",
+        "zsh-completions",
+        "inkscape",
+        "noto-fonts-emoji",
+        "ffmpegthumbnailer",
+        "gnome-terminal"
+    ],
+    "parallel downloads": 0,
+    "profile_config": {
+        "gfx_driver": "All open-source",
+        "greeter": "gdm",
+        "profile": {
+            "custom_settings": {
+                "Gnome": {}
+            },
+            "details": [
+                "Gnome"
+            ],
+            "main": "Desktop"
+        }
+    },
+    "script": "guided",
+    "silent": false,
+    "skip_ntp": false,
+    "skip_version_check": false,
+    "swap": false,
+    "timezone": "Asia/Tokyo",
+    "uki": false,
+    "version": "2.8.1"
+}

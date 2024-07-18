@@ -1,0 +1,4 @@
+# AUR packages
+
+fstl
+spotify
